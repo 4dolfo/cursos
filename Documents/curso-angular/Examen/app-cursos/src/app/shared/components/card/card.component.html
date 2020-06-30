@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="card" style="width: calc( 100% - 20px); max-width: 15rem;
+    margin: auto; margin-top: 10px; margin-bottom: 10px;">
+
+            <img src="{{img}}" class="card-img-top" alt="...">
+
+            <div class="card-body">
+                <h5 class="card-title"> {{title}} </h5>
+                <p class="card-text"> {{instructor}}</p>
+                <p class="card-text"> {{progress | percent}} </p>
+            </div>
+            <button (click)="selectCard()" class="btn btn-warning">Ver detalle</button>
+        </div>
+
+    </div>
+</div>
